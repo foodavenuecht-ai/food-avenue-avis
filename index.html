@@ -1,0 +1,15 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css"><title>Food Avenue</title></head>
+<body><main class="wrap">
+<img src="assets/logo.jpg" class="logo">
+<h1>Donnez votre avis et tentez votre chance !</h1>
+<p>Scannez, laissez un avis sur Google, puis revenez lancer la roue.</p>
+<a class="btn" target="_blank" href="https://g.page/r/CRU7Ul7c8nB4EBM/review">Ouvrir Google Avis</a>
+<button class="btn" onclick="document.getElementById('game').hidden=false">J'ai laissé mon avis</button>
+<section id="game" hidden>
+<div id="pointer"></div><div id="wheel"></div>
+<button class="btn" onclick="spin()">Tourner la roue</button>
+<h2 id="result"></h2>
+</section>
+<p class="note">La participation est proposée après dépôt d'un avis, sans exiger une note particulière.</p>
+</main><script src="script.js"></script></body></html>
